@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CB6695172611CFD500C22936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6695162611CFD500C22936 /* AppDelegate.swift */; };
 		CB6695192611CFD500C22936 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6695182611CFD500C22936 /* SceneDelegate.swift */; };
-		CB66951B2611CFD500C22936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66951A2611CFD500C22936 /* ViewController.swift */; };
+		CB66951B2611CFD500C22936 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66951A2611CFD500C22936 /* CounterViewController.swift */; };
 		CB66951E2611CFD500C22936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB66951C2611CFD500C22936 /* Main.storyboard */; };
 		CB6695202611CFD800C22936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB66951F2611CFD800C22936 /* Assets.xcassets */; };
 		CB6695232611CFD800C22936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6695212611CFD800C22936 /* LaunchScreen.storyboard */; };
+		CB6695302612008E00C22936 /* CounterViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66952F2612008E00C22936 /* CounterViewReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB6695132611CFD500C22936 /* ReactorkitCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorkitCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6695162611CFD500C22936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6695182611CFD500C22936 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB66951A2611CFD500C22936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB66951A2611CFD500C22936 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		CB66951D2611CFD500C22936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB66951F2611CFD800C22936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6695222611CFD800C22936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6695242611CFD800C22936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB66952F2612008E00C22936 /* CounterViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		CB6695152611CFD500C22936 /* ReactorkitCounter */ = {
 			isa = PBXGroup;
 			children = (
-				CB6695162611CFD500C22936 /* AppDelegate.swift */,
-				CB6695182611CFD500C22936 /* SceneDelegate.swift */,
-				CB66951A2611CFD500C22936 /* ViewController.swift */,
-				CB66951C2611CFD500C22936 /* Main.storyboard */,
-				CB66951F2611CFD800C22936 /* Assets.xcassets */,
-				CB6695212611CFD800C22936 /* LaunchScreen.storyboard */,
 				CB6695242611CFD800C22936 /* Info.plist */,
+				CB66952C2611D28E00C22936 /* Resource */,
+				CB66952D2611D29800C22936 /* Source */,
 			);
 			path = ReactorkitCounter;
+			sourceTree = "<group>";
+		};
+		CB66952C2611D28E00C22936 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB66951F2611CFD800C22936 /* Assets.xcassets */,
+				CB6695212611CFD800C22936 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CB66952D2611D29800C22936 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CB6695162611CFD500C22936 /* AppDelegate.swift */,
+				CB6695182611CFD500C22936 /* SceneDelegate.swift */,
+				CB66951A2611CFD500C22936 /* CounterViewController.swift */,
+				CB66951C2611CFD500C22936 /* Main.storyboard */,
+				CB66952F2612008E00C22936 /* CounterViewReactor.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB66951B2611CFD500C22936 /* ViewController.swift in Sources */,
+				CB66951B2611CFD500C22936 /* CounterViewController.swift in Sources */,
+				CB6695302612008E00C22936 /* CounterViewReactor.swift in Sources */,
 				CB6695172611CFD500C22936 /* AppDelegate.swift in Sources */,
 				CB6695192611CFD500C22936 /* SceneDelegate.swift in Sources */,
 			);
